@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- SW-600dp Dimension Folder -->
+
+
+    <!-- Font Size -->
+    <dimen name="font_xSmall">12sp</dimen>
+    <dimen name="font_small">14sp</dimen>
+    <dimen name="font_normal">16sp</dimen>
+    <dimen name="font_large">18sp</dimen>
+    <dimen name="font_xLarge">20sp</dimen>
+    <dimen name="font_xxLarge">22sp</dimen>
+    <dimen name="font_xxxLarge">24sp</dimen>
+
+    <!-- Margin and Padding Size -->
+    <dimen name="margin_none">0dp</dimen>
+    <dimen name="margin_xxSmall">4dp</dimen>
+    <dimen name="margin_xSmall">10dp</dimen>
+    <dimen name="margin_small">20dp</dimen>
+    <dimen name="margin_normal">30dp</dimen>
+    <dimen name="margin_large">40dp</dimen>
+    <dimen name="margin_xLarge">50dp</dimen>
+    <dimen name="margin_xxLarge">60dp</dimen>
+    <dimen name="margin_xxxLarge">70dp</dimen>
+
+</resources>

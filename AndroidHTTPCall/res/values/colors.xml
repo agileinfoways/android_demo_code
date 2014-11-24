@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transperent_black">#70000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="header_background">#2C3E50</color>
+    <color name="header_text_color">#8E8D93</color>
+    <color name="send_btn">#61B329</color>
+
+    <color name="holo_blue_light">#33b5e5</color>
+    <color name="holo_red_light">#D93F3B</color>
+    <color name="bar_back_color">#330099</color>
+    <color name="textColor">#191970</color>
+    <color name="textHeader">#325C74</color>
+    <color name="dashboard_color">#404041</color>
+    <color name="dashboard_text_color">#8b8b8b</color>
+    <color name="app_color">#228B22</color>
+    <color name="black">#000000</color>
+
+    <color name="introduction_title">#0671B1</color>
+    <color name="introduction_text">#3D3D3D</color>
+    <color name="share_text">#494949</color>
+    <color name="setting_label">#4A4A4C</color>
+    <color name="setting_spinner">#939393</color>
+
+    <color name="setting_edittxt">#929292</color>
+
+
+</resources>

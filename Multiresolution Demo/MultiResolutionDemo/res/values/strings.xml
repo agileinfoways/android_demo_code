@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- This is the Sample String which is define the lable of multi resolution demo. -->
+    <string name="app_name">MultiResolutionDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Resolutions</string>
+    <string name="note">Note: Please check dimen.xml for manage different resolution support in android.</string>
+    <string name="small_resolution">Small Resolution.</string>
+    <string name="normal_resolution">Normal Resolution.</string>
+    <string name="large_resolution">Large Resolution.</string>
+    <string name="extra_large_resolution">Extra Large Resolution.</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

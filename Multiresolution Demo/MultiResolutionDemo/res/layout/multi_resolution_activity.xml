@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- This Textview For Multi Resolutoin Dimesion File -->
+    <!-- When you define paddingLeft you should probably also define paddingRight for right-to-left symmetry -->
+
+    <TextView
+        android:id="@+id/multi_resolution_tv_resolution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margin_small"
+        android:text="@string/title"
+        android:textSize="@dimen/font_xxxLarge"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/multi_resolution_tv_small_resolution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:drawableEnd="@null"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:drawablePadding="@dimen/margin_small"
+        android:drawableRight="@null"
+        android:drawableStart="@drawable/ic_launcher"
+        android:gravity="center_vertical"
+        android:paddingEnd="@dimen/margin_none"
+        android:paddingLeft="@dimen/margin_small"
+        android:paddingRight="@dimen/margin_none"
+        android:paddingStart="@dimen/margin_small"
+        android:text="@string/small_resolution"
+        android:textSize="@dimen/font_small"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/multi_resolution_tv_normal_resolution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:drawableEnd="@null"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:drawablePadding="@dimen/margin_small"
+        android:drawableRight="@null"
+        android:drawableStart="@drawable/ic_launcher"
+        android:gravity="center_vertical"
+        android:paddingEnd="@dimen/margin_none"
+        android:paddingLeft="@dimen/margin_small"
+        android:paddingRight="@dimen/margin_none"
+        android:paddingStart="@dimen/margin_small"
+        android:text="@string/normal_resolution"
+        android:textSize="@dimen/font_normal"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/multi_resolution_tv_large_resolution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:drawableEnd="@null"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:drawablePadding="@dimen/margin_small"
+        android:drawableRight="@null"
+        android:drawableStart="@drawable/ic_launcher"
+        android:gravity="center_vertical"
+        android:paddingEnd="@dimen/margin_none"
+        android:paddingLeft="@dimen/margin_small"
+        android:paddingRight="@dimen/margin_none"
+        android:paddingStart="@dimen/margin_small"
+        android:text="@string/large_resolution"
+        android:textSize="@dimen/font_large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/multi_resolution_tv_extra_resolution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:drawableEnd="@null"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:drawablePadding="@dimen/margin_small"
+        android:drawableRight="@null"
+        android:drawableStart="@drawable/ic_launcher"
+        android:gravity="center_vertical"
+        android:paddingEnd="@dimen/margin_none"
+        android:paddingLeft="@dimen/margin_small"
+        android:paddingRight="@dimen/margin_none"
+        android:paddingStart="@dimen/margin_small"
+        android:text="@string/extra_large_resolution"
+        android:textSize="@dimen/font_xLarge"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/multi_resolution_activity_ll_btn_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_small"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/multi_resolution_btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/submit"
+            android:textSize="@dimen/font_xLarge"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/multi_resolution_btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textSize="@dimen/font_xLarge"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/multi_resolution_tv_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_small"
+        android:text="@string/note"
+        android:textSize="@dimen/font_small"
+        android:textStyle="bold" />
+
+</LinearLayout>
